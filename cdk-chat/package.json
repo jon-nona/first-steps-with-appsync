@@ -1,0 +1,39 @@
+{
+  "name": "cdk-chat",
+  "version": "0.1.0",
+  "bin": {
+    "cdk-chat": "bin/cdk-chat.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk",
+    "cdk:synth": "cdk synth",
+    "cdk:deploy": "cdk deploy"
+  },
+  "devDependencies": {
+    "@aws-cdk/assert": "1.86.0",
+    "@types/jest": "^26.0.10",
+    "@types/node": "10.17.27",
+    "aws-cdk": "1.86.0",
+    "eslint": "^7.18.0",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-typescript": "^0.14.0",
+    "jest": "^26.4.2",
+    "package-json-help": "0.0.11",
+    "prettier": "^2.2.1",
+    "ts-jest": "^26.2.0",
+    "ts-node": "^9.0.0",
+    "typescript": "~3.9.7"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-appsync": "^1.86.0",
+    "@aws-cdk/aws-cognito": "^1.86.0",
+    "@aws-cdk/aws-dynamodb": "^1.86.0",
+    "@aws-cdk/aws-iam": "^1.86.0",
+    "@aws-cdk/core": "1.86.0",
+    "source-map-support": "^0.5.16"
+  }
+}
